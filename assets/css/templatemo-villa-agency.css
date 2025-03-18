@@ -1855,7 +1855,7 @@ body {
 
 @media (max-width: 768px) {
     .main-banner .item {
-        height: 47vh; /* Adjusted for smaller devices */
+        height: 37vh; /* Adjusted for smaller devices */
         padding: 60px 5% 100px 5%;
     }
 
