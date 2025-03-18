@@ -113,7 +113,7 @@ html[xmlns] .flexslider .slides {
   margin-right: 5px;
 }
 .flex-direction-nav {
-  *height: 0;
+  height: 0;
 }
 .flex-direction-nav a {
   text-decoration: none;
@@ -209,7 +209,7 @@ html[xmlns] .flexslider .slides {
   margin: 0 6px;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
 }
 .flex-control-paging li a {
   width: 11px;
@@ -277,5 +277,31 @@ html[xmlns] .flexslider .slides {
   .flex-direction-nav .flex-next {
     opacity: 1;
     right: 10px;
+  }
+}
+
+.main-banner {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.owl-banner .item {
+  background-size: contain; /* Prevents stretching */
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh; /* Default height */
+  max-height: 600px; /* Prevents excessive height */
+}
+
+@media (max-width: 1024px) {
+  .owl-banner .item {
+    height: 45vh; /* Tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .owl-banner .item {
+    height: 40vh; /* Mobile devices */
   }
 }
