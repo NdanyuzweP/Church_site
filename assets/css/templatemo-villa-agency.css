@@ -1836,19 +1836,35 @@ body {
   }
 }
 
+.main-banner .item h2 {
+    font-size: 60px; /* Standard size for large screens */
+    line-height: 76px;
+}
+
 @media (max-width: 992px) {
-  .main-banner .item {
-      height: 60vh; /* Further reduced height for tablets */
-      padding: 80px 5% 150px 5%;
-  }
+    .main-banner .item {
+        height: 60vh; /* Adjusted for tablets */
+        padding: 80px 5% 150px 5%;
+    }
+
+    .main-banner .item h2 {
+        font-size: 56px; /* Smaller text for tablets */
+        line-height: 64px;
+    }
 }
 
 @media (max-width: 768px) {
-  .main-banner .item {
-      height: 57vh; /* Smaller height for mobile */
-      padding: 60px 5% 100px 5%;
-  }
+    .main-banner .item {
+        height: 47vh; /* Adjusted for smaller devices */
+        padding: 60px 5% 100px 5%;
+    }
+
+    .main-banner .item h2 {
+        font-size: 48px; /* Smaller text for mobile */
+        line-height: 46px;
+    }
 }
+
 
 
 
