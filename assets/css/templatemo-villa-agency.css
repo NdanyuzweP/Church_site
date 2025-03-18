@@ -1836,6 +1836,21 @@ body {
   }
 }
 
+@media (max-width: 992px) {
+  .main-banner .item {
+      height: 50vh; /* Further reduced height for tablets */
+      padding: 80px 5% 150px 5%;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-banner .item {
+      height: 40vh; /* Smaller height for mobile */
+      padding: 60px 5% 100px 5%;
+  }
+}
+
+
 
 
 
