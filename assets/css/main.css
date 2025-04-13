@@ -1,30 +1,4 @@
-/*
 
-TemplateMo 591 villa agency
-
-https://templatemo.com/tm-591-villa-agency
-
-*/
-
-/* ---------------------------------------------
-Table of contents
-------------------------------------------------
-01. font & reset css
-02. reset
-03. global styles
-04. header
-05. banner
-06. features
-07. testimonials
-08. contact
-09. footer
-
---------------------------------------------- */
-/* 
----------------------------------------------
-font & reset css
---------------------------------------------- 
-*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900");
 /* 
 ---------------------------------------------
@@ -740,8 +714,8 @@ Banner Style
   background-position: center center;
   background-repeat: no-repeat;
   background-size:cover;
-  height: 70vh; /* Reduced height to ensure it fits smaller screens */
-  padding: 100px 10% 200px 10%; /* Adjusted padding for better spacing */
+  height: 70vh; 
+  padding: 100px 10% 200px 10%; 
 }
 
 
@@ -1909,8 +1883,7 @@ body {
   color: #fff;
 }
 
-/* Replace any other orange color references (search for #003d5b, #003d5b, #f48e65 and similar orange hex codes) */
-/* Examples of other elements that might need color updates: */
+
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
